@@ -7,23 +7,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{93DC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModuleA", "ModuleA", "{BA7C7391-63A2-4782-84E5-4FF35CEC03C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Modules.ModuleA.Application", "Modules\ModulesA\AutofacMediatr.Modules.ModuleA.Application\AutofacMediatr.Modules.ModuleA.Application.csproj", "{2634018A-2AB7-43E1-B9B0-A0B270BAB46C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacMediatr.Modules.ModuleA.Application", "Modules\ModulesA\AutofacMediatr.Modules.ModuleA.Application\AutofacMediatr.Modules.ModuleA.Application.csproj", "{2634018A-2AB7-43E1-B9B0-A0B270BAB46C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Modules.ModuleA.Infrastructure", "Modules\ModulesA\AutofacMediatr.Modules.ModuleA.Infrastructure\AutofacMediatr.Modules.ModuleA.Infrastructure.csproj", "{E63BB43D-FE39-4B5C-8171-78745471E8BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacMediatr.Modules.ModuleA.Infrastructure", "Modules\ModulesA\AutofacMediatr.Modules.ModuleA.Infrastructure\AutofacMediatr.Modules.ModuleA.Infrastructure.csproj", "{E63BB43D-FE39-4B5C-8171-78745471E8BF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{EB3A2397-D15C-4D25-A9CD-84482F80333C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.BuildingBlocks.Domain", "BuildingBlocks\AutofacMediatr.BuildingBlocks.Domain\AutofacMediatr.BuildingBlocks.Domain.csproj", "{9908AA5C-6AC6-47E5-AEBA-389D69F85109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacMediatr.BuildingBlocks.Domain", "BuildingBlocks\AutofacMediatr.BuildingBlocks.Domain\AutofacMediatr.BuildingBlocks.Domain.csproj", "{9908AA5C-6AC6-47E5-AEBA-389D69F85109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.BuildingBlocks.Infrastructure", "BuildingBlocks\AutofacMediatr.BuildingBlocks.Infrastructure\AutofacMediatr.BuildingBlocks.Infrastructure.csproj", "{0A67DCEF-0325-49A9-9891-1FF8409DD16E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacMediatr.BuildingBlocks.Infrastructure", "BuildingBlocks\AutofacMediatr.BuildingBlocks.Infrastructure\AutofacMediatr.BuildingBlocks.Infrastructure.csproj", "{0A67DCEF-0325-49A9-9891-1FF8409DD16E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.BuildingBlocks.Application", "BuildingBlocks\AutofacMediatr.BuildingBlocks.Application\AutofacMediatr.BuildingBlocks.Application.csproj", "{4CACBC4D-205C-4C4B-8FA9-996E3CE3EF57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacMediatr.BuildingBlocks.Application", "BuildingBlocks\AutofacMediatr.BuildingBlocks.Application\AutofacMediatr.BuildingBlocks.Application.csproj", "{4CACBC4D-205C-4C4B-8FA9-996E3CE3EF57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Modules.ModuleA.Domain", "AutofacMediatr.Modules.ModuleA.Domain\AutofacMediatr.Modules.ModuleA.Domain.csproj", "{CEE8925C-4804-492A-A401-34CE664A5B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacMediatr.Modules.ModuleA.Domain", "AutofacMediatr.Modules.ModuleA.Domain\AutofacMediatr.Modules.ModuleA.Domain.csproj", "{CEE8925C-4804-492A-A401-34CE664A5B1D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3F7AA159-4F33-4AE9-906A-C3F2BE336053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests", "Modules\ModulesA\Tests\AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests\AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests.csproj", "{5498A484-3513-4466-B9BD-73EF885E4002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests", "Modules\ModulesA\Tests\AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests\AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests.csproj", "{5498A484-3513-4466-B9BD-73EF885E4002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{8B169681-8E53-4AE8-AAC9-86D5BDEFF382}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{E267F3BF-9CF8-492B-8BB6-D209D768F8AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoWeb", "TodoWeb", "{155E5C0A-AD52-4F26-8ECC-F19BDD9A8200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Apps.Web.TodoWeb", "Apps\Web\AutofacMediatr.Apps.Web.TodoWeb\AutofacMediatr.Apps.Web.TodoWeb.csproj", "{A6318B96-0395-433B-B444-D1F96382893B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +67,10 @@ Global
 		{5498A484-3513-4466-B9BD-73EF885E4002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5498A484-3513-4466-B9BD-73EF885E4002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5498A484-3513-4466-B9BD-73EF885E4002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6318B96-0395-433B-B444-D1F96382893B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6318B96-0395-433B-B444-D1F96382893B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6318B96-0395-433B-B444-D1F96382893B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6318B96-0395-433B-B444-D1F96382893B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +85,9 @@ Global
 		{CEE8925C-4804-492A-A401-34CE664A5B1D} = {BA7C7391-63A2-4782-84E5-4FF35CEC03C4}
 		{3F7AA159-4F33-4AE9-906A-C3F2BE336053} = {BA7C7391-63A2-4782-84E5-4FF35CEC03C4}
 		{5498A484-3513-4466-B9BD-73EF885E4002} = {3F7AA159-4F33-4AE9-906A-C3F2BE336053}
+		{E267F3BF-9CF8-492B-8BB6-D209D768F8AD} = {8B169681-8E53-4AE8-AAC9-86D5BDEFF382}
+		{155E5C0A-AD52-4F26-8ECC-F19BDD9A8200} = {E267F3BF-9CF8-492B-8BB6-D209D768F8AD}
+		{A6318B96-0395-433B-B444-D1F96382893B} = {155E5C0A-AD52-4F26-8ECC-F19BDD9A8200}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2DE0DB60-F7E4-414C-975E-1DFB70D7228B}
