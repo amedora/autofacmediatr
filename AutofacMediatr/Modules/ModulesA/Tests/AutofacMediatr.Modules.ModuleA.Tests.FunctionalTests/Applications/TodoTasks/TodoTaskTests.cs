@@ -1,3 +1,4 @@
+using AutofacMediatr.Modules.ModuleA.Application.TodoTasks.AddTodoTask;
 using AutofacMediatr.Modules.ModuleA.Application.TodoTasks.GetTodoTasks;
 using AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests.Infrastructure;
 using System;
@@ -15,6 +16,11 @@ namespace AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests.Applications.Todo
 
         }
 
+        protected override void LoadTestData()
+        {
+            _fixture.LoadSeedData();
+        }
+
         [Fact]
         public async Task TODOタスクを取得できる()
         {
@@ -28,9 +34,16 @@ namespace AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests.Applications.Todo
             Assert.Equal("TODO 1", result.First().Todo);
         }
 
-        protected override void LoadTestData()
+        [Fact]
+        public async Task TODOタスクを作成できる()
         {
-            _fixture.LoadSeedData();
+            // Arrange
+            var command = new AddTodoCommand("new todo");
+
+            // Act
+            await _moduleAModule.ExecuteCommandAsync(command);
+
+            // Assert
         }
     }
 }
