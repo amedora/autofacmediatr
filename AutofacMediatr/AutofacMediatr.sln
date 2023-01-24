@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.BuildingBloc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Modules.ModuleA.Domain", "AutofacMediatr.Modules.ModuleA.Domain\AutofacMediatr.Modules.ModuleA.Domain.csproj", "{CEE8925C-4804-492A-A401-34CE664A5B1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3F7AA159-4F33-4AE9-906A-C3F2BE336053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests", "Modules\ModulesA\Tests\AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests\AutofacMediatr.Modules.ModuleA.Tests.FunctionalTests.csproj", "{5498A484-3513-4466-B9BD-73EF885E4002}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{CEE8925C-4804-492A-A401-34CE664A5B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEE8925C-4804-492A-A401-34CE664A5B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEE8925C-4804-492A-A401-34CE664A5B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5498A484-3513-4466-B9BD-73EF885E4002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5498A484-3513-4466-B9BD-73EF885E4002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5498A484-3513-4466-B9BD-73EF885E4002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5498A484-3513-4466-B9BD-73EF885E4002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +71,8 @@ Global
 		{0A67DCEF-0325-49A9-9891-1FF8409DD16E} = {EB3A2397-D15C-4D25-A9CD-84482F80333C}
 		{4CACBC4D-205C-4C4B-8FA9-996E3CE3EF57} = {EB3A2397-D15C-4D25-A9CD-84482F80333C}
 		{CEE8925C-4804-492A-A401-34CE664A5B1D} = {BA7C7391-63A2-4782-84E5-4FF35CEC03C4}
+		{3F7AA159-4F33-4AE9-906A-C3F2BE336053} = {BA7C7391-63A2-4782-84E5-4FF35CEC03C4}
+		{5498A484-3513-4466-B9BD-73EF885E4002} = {3F7AA159-4F33-4AE9-906A-C3F2BE336053}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2DE0DB60-F7E4-414C-975E-1DFB70D7228B}
