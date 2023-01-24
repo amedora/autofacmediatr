@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  autofacmediatr.apps.web.todoweb:
+    image: ${DOCKER_REGISTRY-}autofacmediatrappswebtodoweb
+    build:
+      context: .
+      dockerfile: Apps/Web/AutofacMediatr.Apps.Web.TodoWeb/Dockerfile
+
+  todo-db:
+    build:
+      context: .
+      dockerfile: docker/todo-db/Dockerfile
+    ports:
+      - "61521:1521"
+    volumes:
+      - type: bind
+        source: ./docker/todo-db/scripts/setup
+        target: /opt/oracle/scripts/setup
+      - type: bind
+        source: ./docker/todo-db/scripts/startup
+        target: /opt/oracle/scripts/startup
+    environment:
+      ORACLE_CHARACTERSET: JA16SJISTILDE
+      ORACLE_PDB: localtodo
+      ORACLE_PWD: Password1
+      NLS_LANG: Japanese_Japan.AL32UTF8
+      NLS_DATE_FORMAT: YYYY/MM/DD HH24:MI:SS
+      TZ: Asia/Tokyo

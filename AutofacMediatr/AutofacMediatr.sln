@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoWeb", "TodoWeb", "{155E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Apps.Web.TodoWeb", "Apps\Web\AutofacMediatr.Apps.Web.TodoWeb\AutofacMediatr.Apps.Web.TodoWeb.csproj", "{A6318B96-0395-433B-B444-D1F96382893B}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F99AC263-6CD7-4F2D-AC81-ECD1783E217C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{A6318B96-0395-433B-B444-D1F96382893B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6318B96-0395-433B-B444-D1F96382893B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6318B96-0395-433B-B444-D1F96382893B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99AC263-6CD7-4F2D-AC81-ECD1783E217C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99AC263-6CD7-4F2D-AC81-ECD1783E217C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99AC263-6CD7-4F2D-AC81-ECD1783E217C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99AC263-6CD7-4F2D-AC81-ECD1783E217C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
