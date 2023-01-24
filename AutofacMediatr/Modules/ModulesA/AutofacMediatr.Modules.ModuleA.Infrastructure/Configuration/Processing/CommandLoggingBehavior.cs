@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace AutofacMediatr.Modules.ModuleA.Infrastructure.Configuration.Processing
 {
     internal class CommandLoggingBehavior<TCommand, TResponse> : IPipelineBehavior<TCommand, TResponse>
-        where TCommand : ICommand<TResponse>
+        where TCommand : IRequest<TResponse>
     {
         private readonly ILogger _logger;
 

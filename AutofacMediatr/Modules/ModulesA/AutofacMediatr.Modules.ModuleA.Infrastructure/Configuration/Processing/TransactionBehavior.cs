@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace AutofacMediatr.Modules.ModuleA.Infrastructure.Configuration.Processing
 {
     public class TransactionBehavior<T, TResponse> : IPipelineBehavior<T, TResponse>
-            where T : ICommand<TResponse>
+            where T : IRequest<TResponse>
     {
         private readonly ModuleAUnitOfWork _unitOfWork;
         private readonly ILogger _logger;
