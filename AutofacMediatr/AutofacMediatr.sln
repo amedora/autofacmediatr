@@ -31,9 +31,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{E267F3BF-9CF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TodoWeb", "TodoWeb", "{155E5C0A-AD52-4F26-8ECC-F19BDD9A8200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Apps.Web.TodoWeb", "Apps\Web\AutofacMediatr.Apps.Web.TodoWeb\AutofacMediatr.Apps.Web.TodoWeb.csproj", "{A6318B96-0395-433B-B444-D1F96382893B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacMediatr.Apps.Web.TodoWeb", "Apps\Web\AutofacMediatr.Apps.Web.TodoWeb\AutofacMediatr.Apps.Web.TodoWeb.csproj", "{A6318B96-0395-433B-B444-D1F96382893B}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F99AC263-6CD7-4F2D-AC81-ECD1783E217C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{D5E4A1ED-8BA9-447A-A210-21B8B4736208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestUtilities", "TestUtilities", "{C06D1F35-DC4D-4053-BAF7-BA123F7B3AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Libs.TestUtilities.Infrastructure", "Libs\TestUtilities\AutofacMediatr.Libs.TestUtilities.Infrastructure\AutofacMediatr.Libs.TestUtilities.Infrastructure.csproj", "{5A0DF02B-8F30-4252-871C-736F03645809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Csv", "Csv", "{6685E7BB-46B0-4C82-9F75-871220C0C802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Libs.TestUtilities.Csv.Loader", "Libs\TestUtilities\Csv\AutofacMediatr.Libs.TestUtilities.Csv.Loader\AutofacMediatr.Libs.TestUtilities.Csv.Loader.csproj", "{6094B9FC-73A7-4B4B-8503-D897E5B2262F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacMediatr.Libs.TestUtilities.Csv.Map", "Libs\TestUtilities\Csv\AutofacMediatr.Libs.TestUtilities.Csv.Map\AutofacMediatr.Libs.TestUtilities.Csv.Map.csproj", "{65A5F818-A83C-4C17-8A3B-C6E29CBAE43B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +89,18 @@ Global
 		{F99AC263-6CD7-4F2D-AC81-ECD1783E217C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F99AC263-6CD7-4F2D-AC81-ECD1783E217C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F99AC263-6CD7-4F2D-AC81-ECD1783E217C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0DF02B-8F30-4252-871C-736F03645809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0DF02B-8F30-4252-871C-736F03645809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0DF02B-8F30-4252-871C-736F03645809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0DF02B-8F30-4252-871C-736F03645809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6094B9FC-73A7-4B4B-8503-D897E5B2262F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6094B9FC-73A7-4B4B-8503-D897E5B2262F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6094B9FC-73A7-4B4B-8503-D897E5B2262F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6094B9FC-73A7-4B4B-8503-D897E5B2262F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65A5F818-A83C-4C17-8A3B-C6E29CBAE43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A5F818-A83C-4C17-8A3B-C6E29CBAE43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A5F818-A83C-4C17-8A3B-C6E29CBAE43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A5F818-A83C-4C17-8A3B-C6E29CBAE43B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +118,11 @@ Global
 		{E267F3BF-9CF8-492B-8BB6-D209D768F8AD} = {8B169681-8E53-4AE8-AAC9-86D5BDEFF382}
 		{155E5C0A-AD52-4F26-8ECC-F19BDD9A8200} = {E267F3BF-9CF8-492B-8BB6-D209D768F8AD}
 		{A6318B96-0395-433B-B444-D1F96382893B} = {155E5C0A-AD52-4F26-8ECC-F19BDD9A8200}
+		{C06D1F35-DC4D-4053-BAF7-BA123F7B3AB9} = {D5E4A1ED-8BA9-447A-A210-21B8B4736208}
+		{5A0DF02B-8F30-4252-871C-736F03645809} = {C06D1F35-DC4D-4053-BAF7-BA123F7B3AB9}
+		{6685E7BB-46B0-4C82-9F75-871220C0C802} = {C06D1F35-DC4D-4053-BAF7-BA123F7B3AB9}
+		{6094B9FC-73A7-4B4B-8503-D897E5B2262F} = {6685E7BB-46B0-4C82-9F75-871220C0C802}
+		{65A5F818-A83C-4C17-8A3B-C6E29CBAE43B} = {6685E7BB-46B0-4C82-9F75-871220C0C802}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2DE0DB60-F7E4-414C-975E-1DFB70D7228B}

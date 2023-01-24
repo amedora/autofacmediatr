@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Respawn" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Csv\AutofacMediatr.Libs.TestUtilities.Csv.Loader\AutofacMediatr.Libs.TestUtilities.Csv.Loader.csproj" />
+  </ItemGroup>
+
+</Project>
